@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+}
+.inner-container {
+  background-color: #150b3e;
+  display: flex;
+  flex-direction: column;
+  height: 55vh;
+  width: 70vw;
+  border-radius: 16px;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  background-color: #c7d2fe;
+  margin-right: 16px;
+  border-radius: 50%;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+}
+.inner-balance-container {
+  margin-right: 30px;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.profile-para {
+  border-radius: 50%;
+}
+.main-heading {
+  font-size: 22px;
+  color: #d4d2db;
+  font-weight: normal;
+}
+.balance-heading {
+  margin-left: 18px;
+  font-size: 20px;
+  color: #585076;
+}
+.balance-para {
+  color: #d4d2db;
+  font-size: 24px;
+}
+.rupees-para {
+  color: #585076;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  margin-left: 12px;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+.withdraw-para {
+  color: #585076;
+  font-family: 'Roboto';
+  margin-left: 12px;
+}
+.custom-btn {
+  background-color: #585076;
+  height: 40px;
+  width: 170px;
+  border: 2px solid #c4c4c4;
+  color: #d4d2db;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.list-prop {
+  list-style: none;
+}

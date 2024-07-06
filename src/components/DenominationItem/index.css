@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.custom-btn {
+  background-color: #585076;
+  height: 40px;
+  width: 170px;
+  border: 2px solid #c4c4c4;
+  color: #d4d2db;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
